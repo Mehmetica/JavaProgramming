@@ -5,4 +5,13 @@ public class Tester extends Employee{
         System.out.println(name+ " is testing");
     }
 
+    @Override
+    public void setInfo(String name, String jobTitle, String companyName, char gender, int age, int ID, double salary) {
+        super.setInfo(name, jobTitle, companyName, gender, age, ID, salary);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

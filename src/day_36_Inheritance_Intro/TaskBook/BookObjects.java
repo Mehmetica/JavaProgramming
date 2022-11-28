@@ -5,7 +5,7 @@ public class BookObjects {
 
 
         EBook eBook = new EBook();
-        eBook.setInfo("dfc","asd","saad",645646);
+        eBook.setInfo("Java","Science","MG",21000,"Large",210);
         System.out.println(eBook);
 
         AudioBook audioBook = new AudioBook();

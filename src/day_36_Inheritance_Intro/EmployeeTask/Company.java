@@ -9,6 +9,7 @@ public class Company {
         Developer developer = new Developer();
         developer.setInfo("Mark","FrontEndDev","Microsoft",'M',37,3022,150000);
         System.out.println(developer);
+        System.out.println();
         
         
 

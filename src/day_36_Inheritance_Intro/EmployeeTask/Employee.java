@@ -10,6 +10,16 @@ public class Employee {
         System.out.println(name+ " is working");
     }
 
+    public void setInfo(String name, String jobTitle, String companyName, char gender, int age, int ID, double salary) {
+        this.name = name;
+        this.jobTitle = jobTitle;
+        this.companyName = companyName;
+        this.gender = gender;
+        this.age = age;
+        this.ID = ID;
+        this.salary = salary;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +

@@ -22,5 +22,30 @@ public class MultiCatchBlocks {
             System.out.println("Fourth catch block");
             e.printStackTrace();
         }
+
+        System.out.println("------------------------------");
+
+        try{
+            System.out.println("java".charAt(-1));
+        }catch (RuntimeException e){
+            e.printStackTrace();
+        }
+
+
+        //finally sadece ek bir bloktur ve teminate olmadigi surece calisacaktir
+//son catch bloktan sonra calistirilir.
+                /*final bir keyword
+                finally bir bloktur
+                finalize bir metoddur*/
+
+
+
+
+
+
+
+
+
+
     }
 }

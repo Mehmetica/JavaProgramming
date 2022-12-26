@@ -13,6 +13,7 @@ public class FinallyBlock {
             System.out.println("finally");
         }
     //finally blogunu durdurmanın tek yolu, ondan önce programı terminate etmektir.
+//diğer her durumda calisacaktir
 
 
 

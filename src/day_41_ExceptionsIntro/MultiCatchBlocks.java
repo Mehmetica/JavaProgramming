@@ -29,7 +29,10 @@ public class MultiCatchBlocks {
             System.out.println("java".charAt(-1));
         }catch (RuntimeException e){
             e.printStackTrace();
+        }finally{
+            System.out.println();
         }
+
 
 
         //finally sadece ek bir bloktur ve teminate olmadigi surece calisacaktir

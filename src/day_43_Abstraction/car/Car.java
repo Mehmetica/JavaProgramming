@@ -1,6 +1,19 @@
 package day_43_Abstraction.car;
 
 public abstract class Car {
+    //soyut sınıf. nesen uretemezsin. concrete somut sınıf değildir.
+    //abstraction is focusing on important things rather than details or implementation.
+    //we don't show details to the user
+    //abstract method is a method without an implementation area(); eat();
+    //if we have a method that has multiple implementation , we use abstract class
+    //once we had an abstract method in an abstract parent class, child classes have to implement that  method compulsorily
+    //abstract methods can be overloaded and be override eat() --> eat(String food);
+    //abstract class is meant to be a parent. provide variables and methods to other children.
+    //abstract class is not a concrete class ,so we cannot create objects from this class.
+    //it has same methods,variables and blocks as other classes
+    //it cannot have constructor because we cannot create objects from this class and constructor is for creating objects
+    //we don't make abstract methods final because these methods are meant to  be overrided,but we can also
+    //
 
     private final String brand, model;
     private String color;
